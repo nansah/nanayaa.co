@@ -1,15 +1,18 @@
 body {
     background-color: #FAF9F7;
-    margin: 0px;
+    margin: 0px 0px 0px 0px;
     background-color: #EDE6DE;
-    padding: 0px;
-
+    padding: 0px 0px 0px 0px;
 }
 
 .container {
     background-color: #EDE6DE;
     margin: 0px 0px 0px 0px;
-    width: max-content;
+    padding: 0px
+}
+
+.btn .btn-primary {
+    background-color: #833a0f;
 }
 
 .col {
@@ -17,27 +20,37 @@ body {
     margin: 2em;
 }
 
+.navbar {
+    height: 80px;
+}
+
+.navbar img {
+    padding: 1em;
+}
+
 nav {
-    background-color: #CC6931;
-    float: right;
+    background-color: #833a0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 nav a {
-    padding: .5em;
-    margin: auto;
+    padding: 1px;
     color: white;
-    text-align: center;
+    margin: 8px
 }
 
 nav a:hover {
-    padding: .5em;
-    margin: auto;
-    color: black;
-    text-align: center;
+    color: white;
 }
 
 .row {
-    padding: 2em 0em 2em 0em;
+    padding: 2em;
+    margin: 0px;
+    display: flex;
+    align-items: center;
 }
 
 col {
@@ -64,13 +77,14 @@ h2 {
     background-color: white;
 }
 
-
-.btn {
-    background-color: brown;
-}
-
-.btn-primary {
-    background-color: brown;
+button {
+    background-color: black;
+    border-color: none;
+    border-top-style: none;
+    border-left-style: none;
+    color: white;
+    padding: .5em 2em 2em 2em;
+    height: 2.5em;
 }
 
 a {
@@ -80,6 +94,14 @@ a {
 a:hover {
     color: brown;
 }
+
+form {
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0em 3em 0em;
+
+}
+
 
 .footer {
     background-color: #CC6931;
