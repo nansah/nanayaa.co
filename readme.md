@@ -1,0 +1,1 @@
+This is a portfolio website showcasing my front end dev skills and sharing a  little bit about me!

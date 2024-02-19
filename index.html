@@ -8,71 +8,111 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-    <nav>
-        <a href="index.html"> Home </a>
-        <a href="about.html"> About </a>
-        <a href="projects.html"> Projects </a>
-        <a href="contact.html"> Contact </a>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <a href="index.html"> Home </a>
+            <a href="about.html"> About </a>
+            <a href="projects.html"> Projects </a>
+            <a href="contact.html"> Contact </a>
+        </div>
     </nav>
     <div class="container">
         <div class="row" id="about">
             <div class="col">
-                <h1>Hi! I'm Nana Yaa</h1>
-                <p> I'm a Front-End Developer with a growth mindset and desire to become a full stack developer. I love
+                <h2>Hi! I'm Nana Yaa </h2>
+                <p> I'm a Front-End Developer with a growth mindset on a journey of continuous learning. I love
                     challenges, solving problems and serving people through technology. I hope to make a social impact
                     with my work and effect real change. Check out my work below! </p>
             </div>
             <div class="col">
-                <img src="Nana Yaa Ansah.jpeg" class="img-fluid">
+                <img src="Nana Yaa Ansah.jpeg" class="img-fluid" width="400px">
             </div>
-
         </div>
         <div class="row" id="portfolio">
             <div class="col">
-                <img src="" id="seamstrust-project" class="img-fluid">
                 <h2>Seamtrust</h2>
-                <p> Application to find Vetted Seamstresses</p>
+                <p> Growing up, as a first generation Ghanaian American, I would often get custom garments sewn for
+                    various occasions.
+                    The problem is that people within the African diaspora have a difficult time finding trustworthy
+                    seamstresses due to technology constraints and lack of verified sources.
+                    Here's how i helped solve that problem and built an application to find Vetted Seamstresses</p>
+                <a href="/projects/seamstrust.html"><button class="btn btn-primary"> View Project </button></a>
             </div>
             <div class="col">
-                <img src="" id="milkhoneycreative" class="img-fluid">
-                <h2> Milk & Honey Creative Studio </h2>
-                <p> Generated 5 figuers in my freelance web design business designing for clients in b2b and service
-                    industries. I've recreated my portfolio in HTML, CSS and Javascript. Take a look! </p>
-            </div>
-
-            <div class="col" id="ExpungeAssist">
-                <img src="">
-                <h2> Expunge Assist </h2>
-                <p>Responsive landing page design for a legal tech nonprofit to increase partnerships and improve
-                    volunteer onboarding experience</p>
+                <img src="+Seamstrust+Isometric+Mockup.png" id="seamstrust-project" class="img-fluid">
             </div>
         </div>
+        <div class="row" id="milkandhoneycreativestudio">
+            <div class="col">
+                <img src="Bougie+&+Balanced+Isometric+Mockups (1).png" class="img-fluid">
+            </div>
+            <div class="col">
+                <h2> Milk & Honey Creative Studio </h2>
+                <p> Generated 5 figures in my freelance web design business designing for clients in b2b and service
+                    industries. I've recreated my portfolio in HTML, CSS and Javascript. <br> Take a look! </p>
+                <a href="https://milkandhoneycreativestudio.com"><button class="btn btn-primary"> View Site
+                    </button></a>
+            </div>
+
+        </div>
+
+
+        <div class="row" id="expunge-assist">
+            <div class="col">
+                <img src="Expunge+Assist+Mockup++Template.png" class="img-fluid">
+            </div>
+            <div class="col">
+                <h2> Expunge Assist </h2>
+                <p>Responsive landing page design for a legal tech nonprofit to increase partnerships and
+                    improve volunteer onboarding experience</p>
+                <button class="btn btn-primary"> View Project </button>
+            </div>
+        </div>
+
         <div class="row" id="hobbies">
             <h2> Get to know me</h2>
             <p>In my free time I like to sew, <a href="https://milkandhoneycreativestudio.com"> design websites</a> and
                 <a href="https://instagram.com/nanayaa.ansah"> create content! </a>
             </p>
-            <div class="col">
-                <img src="https://lindleygeneralstore.ca/cdn/shop/articles/6cXo6gtdr3yRQzzkeqdSStQIdcayxNWk1664285487.jpg"
+            <div class="col ">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcQbavYuekR0B0NtL2-gkS850aLfHpONQkASzAnKV052iDsKpoPfzulqW9vTpOI-KKtPI&usqp=CAU"
                     class="img-fluid">
             </div>
-            <div class="col">
-                <img src="">
+            <div class="col ">
+                <img src="Bougie+&+Balanced+Isometric+Mockups (1).png" class="img-fluid">
             </div>
-            <div class="col">
+            <div class="col ">
                 <img src="https://images.squarespace-cdn.com/content/v1/5ebd8885a1407a37423e23ad/36268aac-b6fa-415d-af37-8baf557e2c24/IMG_4529.jpg"
                     class="img-fluid">
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+
+    <div class="footer">
+        <div class="col">
+            <a href="https://linkedin.com/in/nanayaa">Let's Connect on LinkedIn!</a>
+            <a href="https://github.com/nansah"> Github</a>
+            <a href="https://instagram.com/nanayaa.ansah"> Connect on Insta!</a>
+        </div>
+    </div>
+
 </body>
 
 </html>

@@ -1,7 +1,93 @@
 body {
-    background-color: tan;
+    background-color: #FAF9F7;
+    margin: 0px;
+    background-color: #EDE6DE;
+    padding: 0px;
+
+}
+
+.container {
+    background-color: #EDE6DE;
+    margin: 0px 0px 0px 0px;
+    width: max-content;
+}
+
+.col {
+    padding: 1em;
+    margin: 2em;
+}
+
+nav {
+    background-color: #CC6931;
+    float: right;
+}
+
+nav a {
+    padding: .5em;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+nav a:hover {
+    padding: .5em;
+    margin: auto;
+    color: black;
+    text-align: center;
 }
 
 .row {
+    padding: 2em 0em 2em 0em;
+}
+
+col {
+    padding: 2em;
+}
+
+h2 {
+    padding: .5em 0em 0em 0em;
+}
+
+#portfolio {
+    background-color: tan;
+}
+
+#milkandhoneycreativestudio {
+    background-color: #EDE6DE;
+}
+
+#expunge-assist {
+    background-color: tan;
+}
+
+#hobbies {
+    background-color: white;
+}
+
+
+.btn {
+    background-color: brown;
+}
+
+.btn-primary {
+    background-color: brown;
+}
+
+a {
+    color: brown;
+}
+
+a:hover {
+    color: brown;
+}
+
+.footer {
+    background-color: #CC6931;
+    height: 5em;
+}
+
+.footer a,
+.footer a:hover {
+    color: white;
     padding: 1em;
 }
